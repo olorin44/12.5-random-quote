@@ -1,0 +1,31 @@
+body {
+  color: #fff;
+  background-color: #1B9CFC;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin: 50px 0 200px;
+}
+
+h2, h3 {
+  margin-bottom: 50px;
+}
+
+.trigger {
+  background-color: #1B9CFC;
+  border: 1px solid #fff;
+  color: #fff;
+  display: block;
+  font-size: 1.1em;
+  height: 30px;
+  margin: 20px auto;
+  width: 250px;
+}
+
+.tweet {
+  color: #fff;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
