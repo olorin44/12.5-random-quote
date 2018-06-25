@@ -7,11 +7,11 @@
 
 	function getQuote() {
 		fetch(prefix + quoteUrl, { cache: "no-store" })
-		fetch(quoteUrl, { cache: "no-store" })
+			.catch(error => alert('There was an error :('))
 			.then(function(resp) {
 				return resp.json();
 			})
-		.then(createTweet);
+			.then(createTweet);
 	}
 
 	function createTweet(input) {
